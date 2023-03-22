@@ -1,3 +1,9 @@
+# Fork changes
+- Removed plaintext passwords
+- Ping is now using ping instead of port scan
+- Added form for adding more PCs. **Note that it won't work if you don't have any PC in config, so you have to add the first one manually. I'm too lazy to sort that out.**
+- Wakeup is done using https://community.chocolatey.org/packages/wakeonlan , since I was testing it on windows... Who knows, maybe it's also available on linux.
+
 # Wake PC
 
 Wake PC is a super tiny password protected webapp for linux machines that sends WOL packets, written in PHP.
@@ -47,7 +53,7 @@ Go in Control Panel\All Control Panel Items\Network Connections, select your con
 
 
 ## Planned improvements
-- Remove plaintext password haha
+- Remove plaintext passwords HAHA
 - GUI config
 - Scheduling
 - Shutdown and reboot maybe?
